@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.pageHeader {
+    background: url('./img/bg-pattern.png'), #7b4397;
+    background: url("../img/bg-pattern.png"), linear-gradient(to right, #dc2430, #7b4397);
+    color: #ffffff;
+    padding: 9.5rem 0 6.25rem 0;
+    width: 100%;
+}
+
+.btn-main {
+    background-color: inherit;
+    border: 1px solid #ffffff;
+    border-radius: 250px;
+    transition: border 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.btn-border:hover,
+.btn:hover {
+    background-color: #fdcc52;
+    border: 1px solid #fdcc52;
+}
+
+.stores img {
+    height: 60px;
+}
+
+.linksFooter a {
+    color: #6c757d;
+}
+
+.linksFooter a:hover {
+    color: #fdcc52;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-google-plus {
+    color: #db4a39;
+}
