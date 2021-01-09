@@ -144,12 +144,15 @@ p {
 }
 
 .stopWaitingContainer {
-    padding: 7rem;
+    padding-left: 2.5rem;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
     position: relative;
     z-index: 1;
 }
 
-.socialMediaSection {
+.socialMediaSection,
+.unlimitedSection {
     padding: 6rem;
 }
 
@@ -194,4 +197,20 @@ p {
 
 .imgScreen {
     border-radius: 5px;
+}
+
+.features {
+    padding-top: 7rem;
+}
+
+.featuresRow {
+    padding-top: 7.3rem;
+}
+
+.oneFeature {
+    padding-bottom: 7rem;
+}
+
+.emoji {
+    font-size: 3rem;
 }
