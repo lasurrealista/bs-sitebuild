@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
@@ -7,7 +7,27 @@ body {
     width: 100%;
 }
 
-.navbar-brand {
+.mainMenu,
+h1,
+h2,
+h3 {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.btn-main,
+.nav-link {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+
+.footer {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+
+.brandNavbar {
     color: #fdcc52;
 }
 
@@ -19,10 +39,18 @@ body {
     width: 100%;
 }
 
+.newAgeHeading,
+.stopWaitingHeading {
+    font-weight: 100;
+}
+
 .btn-main {
     background-color: inherit;
     border: 1px solid #ffffff;
     border-radius: 250px;
+    font-size: 0.6rem;
+    line-height: 2rem;
+    padding: 0 2rem;
     transition: border 0.3s ease-in, background-color 0.3s ease-in;
 }
 
@@ -90,6 +118,14 @@ body {
     background: #fdcc52;
 }
 
+.discoverHeading {
+    font-weight: 300;
+}
+
+.discoverSection {
+    padding: 9rem 0;
+}
+
 .stopWaitingSection {
     background-image: url('./img/bg-cta.jpg');
     background-position: center;
@@ -108,8 +144,13 @@ body {
 }
 
 .stopWaitingContainer {
+    padding: 7rem;
     position: relative;
     z-index: 1;
+}
+
+.socialMediaSection {
+    padding: 6rem;
 }
 
 .heart {
