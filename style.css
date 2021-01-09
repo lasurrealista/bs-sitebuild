@@ -23,7 +23,7 @@ body {
 }
 
 .btn-border:hover,
-.btn:hover {
+.btn-main:hover {
     background-color: #fdcc52;
     border: 1px solid #fdcc52;
 }
@@ -41,14 +41,20 @@ body {
     text-decoration: none;
 }
 
-.fa-facebook {
+.fa-fb-bg {
     color: #3b5998;
 }
 
-.fa-twitter {
+.fa-tw-bg {
     color: #00acee;
 }
 
-.fa-google-plus {
+.fa-gp-bg {
     color: #db4a39;
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-google-plus-g {
+    color: #ffffff;
 }
