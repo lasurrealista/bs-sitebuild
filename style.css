@@ -7,6 +7,10 @@ body {
     width: 100%;
 }
 
+.navbar-brand {
+    color: #fdcc52;
+}
+
 .pageHeader {
     background: url('./img/bg-pattern.png'), #7b4397;
     background: url("../img/bg-pattern.png"), linear-gradient(to right, #dc2430, #7b4397);
@@ -43,18 +47,110 @@ body {
 
 .fa-fb-bg {
     color: #3b5998;
+    opacity: 0.9;
 }
 
 .fa-tw-bg {
     color: #00acee;
+    opacity: 0.9;
 }
 
 .fa-gp-bg {
     color: #db4a39;
+    opacity: 0.9;
+}
+
+.fa-fb-bg:hover {
+    color: #3b5998;
+    opacity: 1;
+}
+
+.fa-tw-bg:hover {
+    color: #00acee;
+    opacity: 1;
+}
+
+.fa-gp-bg:hover {
+    color: #db4a39;
+    opacity: 1;
 }
 
 .fa-twitter,
 .fa-facebook-f,
 .fa-google-plus-g {
     color: #ffffff;
+}
+
+.fa-stack {
+    width: 64px;
+}
+
+.socialMediaSection,
+.discoverSection {
+    background: #fdcc52;
+}
+
+.stopWaitingSection {
+    background-image: url('./img/bg-cta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.stopWaitingContainer {
+    position: relative;
+    z-index: 1;
+}
+
+.heart {
+    color: transparent;
+    text-shadow: 0 0 0 red;
+}
+
+.phoneContainer {
+    margin-top: 7rem;
+    max-width: 20rem;
+}
+
+.phonePositioner {
+    position: relative;
+}
+
+.phonePositioner.iphone {
+    padding-bottom: 200%;
+}
+
+.phone {
+    background-image: url('./img/phone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.screen {
+    position: absolute;
+    top: 11%;
+    bottom: 11%;
+    left: 6%;
+    right: 6%;
+}
+
+.imgScreen {
+    border-radius: 5px;
 }
