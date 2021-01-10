@@ -16,9 +16,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md bg-white">
+    <nav class="navbar navbar-expand-md">
         <a class="brandNavbar" href="./index.html">Start Bootstrap</a>
-        <button class="navbar-toggler text-secondary" type="button" data-toggle="collapse" data-target="#mainMenu"
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
             aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
@@ -26,13 +26,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="mainMenu">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link text-secondary" href="">Download<span class="sr-only">current</span></a>
+                    <a class="nav-link" href="#discoverSection">Download<span class="sr-only">current</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-secondary" href="">Feature</a>
+                    <a class="nav-link" href="#unlimitedSection">Feature</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-secondary" href="">Contact</a>
+                    <a class="nav-link" href="#socialMediaSection">Contact</a>
                 </li>
             </ul>
         </div>
@@ -41,21 +41,20 @@
     <header class="pageHeader">
         <div class="container h-100">
             <div class="row h-100">
-                <div class="col-lg-7 mt-auto text-center">
+                <div class="newAgeCol col-lg-7 text-center">
                     <div class="header-content mx-auto">
                         <h1 class="mb-5 newAgeHeading h2">
                             New Age is an app landing page that will help you
                             beautifully showcase your new
                             mobile app, or anything else!
                         </h1>
-                        <a href="#download"
-                            class="btn btn-main btn-border text-white text-uppercase btn-xl js-scroll-trigger">
+                        <a href="#" class="btn btn-main btn-main1 btn-border text-white text-uppercase btn-xl">
                             Start Now for Free!
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-5 my-auto">
-                    <div class="phoneContainer mx-auto">
+                <div class="col-lg-5">
+                    <div class="phoneContainer phoneContainer1 mx-auto">
                         <div class="phonePositioner iphone">
                             <div class="phone">
                                 <div class="screen">
@@ -72,10 +71,10 @@
 
     <main>
 
-        <section class="discoverSection">
+        <section class="discoverSection scroll" id="discoverSection">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-8 mx-auto">
+                    <div class="col-lg-8 mx-auto">
                         <h2 class="discoverHeading mb-3 h1">
                             Discover what all the buzz is about!
                         </h2>
@@ -83,10 +82,10 @@
                             Our app is available on any mobile device! Download now to get started!
                         </p>
                         <div class="stores">
-                            <a class="storeLink d-block mb-4"
-                                href="https://play.google.com/store/apps/details?id=za.co.digital22.bootstrap4&hl=en&gl=US"><img
-                                    src="./img/google-play-badge.svg" alt="Google Play"></a>
-                            <a class="storeLink" href="https://www.apple.com/app-store/"><img
+                            <a class="storeLink mb-4"
+                                href="https://play.google.com/store/apps/details?id=za.co.digital22.bootstrap4&hl=en&gl=US"
+                                target="_blank"><img src="./img/google-play-badge.svg" alt="Google Play"></a>
+                            <a class="storeLink" href="https://www.apple.com/app-store/" target="_blank"><img
                                     src="./img/app-store-badge.svg" alt="App Store"></a>
                         </div>
                     </div>
@@ -95,8 +94,8 @@
 
         </section>
 
-        <section class="unlimitedSection">
-            <div class="container">
+        <section class="unlimitedSection scroll" id="unlimitedSection">
+            <div class="container p-0">
                 <div class="row">
                     <h2 class="unlimitedHeading mb-3 h1 text-center col-12">
                         Unlimited Features, Unlimited Fun
@@ -105,8 +104,8 @@
                         Check out what you can do with this app theme!
                     </p>
                     <hr>
-                    <div class="col-lg-5 my-auto">
-                        <div class="phoneContainer mx-auto">
+                    <div class="colPhone col-lg-5">
+                        <div class="phoneContainer phoneContainer2 mx-auto my-auto">
                             <div class="phonePositioner iphone">
                                 <div class="phone">
                                     <div class="screen">
@@ -116,15 +115,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="features col-12 col-md-6 mx-auto text-center">
+                    <div class="features col-12 col-lg-7 text-center">
                         <div class="row featuresRow">
-                            <div class="col-12 col-sm-6 oneFeature">
+                            <div class="col-12 col-lg-6 oneFeature">
                                 <p class="emoji">&#128241;</p>
                                 <h3>Device Mockups</h3>
                                 <hr>
                                 <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
                             </div>
-                            <div class="col-12 col-sm-6 oneFeature">
+                            <div class="col-12 col-lg-6 oneFeature">
                                 <p class="emoji">&#128247;</p>
                                 <h3>Flexible Use</h3>
                                 <hr>
@@ -133,14 +132,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12 col-sm-6 oneFeature">
+                            <div class="col-12 col-lg-6 oneFeature">
                                 <p class="emoji">&#127873;</p>
                                 <h3>Free to Use</h3>
                                 <hr>
                                 <p class="text-muted">As always, this theme is free to download and use for any purpose!
                                 </p>
                             </div>
-                            <div class="col-12 col-sm-6">
+                            <div class="col-12 col-lg-6">
                                 <p class="emoji">&#128275;</p>
                                 <h3>Open Source</h3>
                                 <hr>
@@ -154,19 +153,18 @@
 
         </section>
 
-        <section class="stopWaitingSection py-10">
+        <section class="stopWaitingSection">
             <div class="container stopWaitingContainer text-white">
                 <h2 class="stopWaitingHeading">Stop waiting.
                     <br>
                     Start building.</h2>
-                <a href="#contact"
-                    class="btn btn-main btn-border text-white text-uppercase btn-xl js-scroll-trigger">Let's Get
+                <a href="" class="btn btn-main btn-border text-white text-uppercase btn-xl">Let's Get
                     Started!</a>
             </div>
             <div class="overlay"></div>
         </section>
 
-        <section class="socialMediaSection">
+        <section class="socialMediaSection scroll" id="socialMediaSection">
             <div class="container text-center">
                 <h1>We <span class="heart">❤</span>
                     new friends!</h1>

@@ -2,12 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
     width: 100%;
 }
 
-.mainMenu,
+.brandNavbar,
+.navbar-toggler,
 h1,
 h2,
 h3 {
@@ -28,6 +33,53 @@ p {
 }
 
 .brandNavbar {
+    color: #fdcc52;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    background-image: url('./img/bg-pattern.png'), #7b4397;
+    background-image: url("../img/bg-pattern.png"), linear-gradient(to right, #dc2430, #7b4397);
+    padding: 0.5 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-link {
+    color: #b8c0c7;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    color: #b8c0c7;
+}
+
+.sticky {
+    background-color: #ffffff;
+    background-image: none;
+    z-index: 999;
+}
+
+.sticky .brandNavbar:hover {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.brandNavbar:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.sticky .nav-link {
+    color: #6c757d;
+}
+
+.sticky .nav-link:hover {
     color: #fdcc52;
 }
 
@@ -145,15 +197,18 @@ p {
 
 .stopWaitingContainer {
     padding-left: 2.5rem;
-    padding-bottom: 7rem;
-    padding-top: 7rem;
+    padding-bottom: 9rem;
+    padding-top: 9rem;
     position: relative;
     z-index: 1;
 }
 
-.socialMediaSection,
+.socialMediaSection {
+    padding: 4.5rem 3rem;
+}
+
 .unlimitedSection {
-    padding: 6rem;
+    padding: 4rem;
 }
 
 .heart {
@@ -162,8 +217,9 @@ p {
 }
 
 .phoneContainer {
-    margin-top: 7rem;
-    max-width: 20rem;
+    margin-top: 5rem;
+    max-width: 25rem;
+    padding: 0 2rem;
 }
 
 .phonePositioner {
@@ -200,7 +256,8 @@ p {
 }
 
 .features {
-    padding-top: 7rem;
+    padding-bottom: 2rem;
+    padding-top: 0rem;
 }
 
 .featuresRow {
@@ -208,9 +265,86 @@ p {
 }
 
 .oneFeature {
-    padding-bottom: 7rem;
+    padding-bottom: 5rem;
 }
 
 .emoji {
     font-size: 3rem;
+}
+
+@media (min-width: 992px) {
+    .storeLink {
+        display: inline;
+    }
+
+    .newAgeCol {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .newAgeHeading {
+        text-align: left;
+        padding-left: 6rem;
+        padding-top: 8rem;
+    }
+
+    .phoneContainer1 {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-right: 6rem;
+        padding-top: 4rem;
+    }
+
+    .stopWaitingSection {
+        padding-left: 6rem;
+        padding-right: 3rem;
+    }
+
+    .phoneContainer2 {
+        margin-top: 6rem;
+        padding-right: 4rem;
+    }
+
+    .features {
+        margin-top: 3rem;
+        padding-left: 0;
+        padding-top: 3rem;
+    }
+
+    .featuresRow {
+        padding: 0;
+    }
+
+    .oneFeature {
+        padding-bottom: 0;
+    }
+
+    .pageHeader {
+        padding-top: 3rem;
+    }
+
+    .colPhone {
+        padding-top: 4rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .storeLink {
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+
+    .brandNavbar:hover {
+        text-decoration: none;
+    }
+
+    .stopWaitingSection {
+        padding-left: 0rem;
+    }
+
+    .colPhone {
+        padding-top: 4rem;
+    }
 }
