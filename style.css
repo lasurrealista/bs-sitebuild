@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     height: 100%;
     width: 100%;
